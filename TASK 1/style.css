@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    padding: 0px 0;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+   background-image: url("img/coffee-table-front-street-scene_1026668-3639.avif");
+   background-size: cover;
+   background-position: center;
+   padding: 0px 0%;
+}
+
+.logo {
+    mix-blend-mode: screen;
+    position: fixed;
+    height: 80px;
+    left: 10px;
+    margin-top: 5px;
+    width: 80px;
+}
+
+.nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 10px 80px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    color: #ddd;
+}
+
+.content {
+    margin-top: 12%;
+    color: #fff;
+    max-width: 620px;
+}
+
+.content h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(231, 143, 36, 0.841);
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.content p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: rgb(247, 217, 157);
+    margin-left:45px ;
+    margin-bottom: 25px;
+}
+
+.button{
+    display: flex;
+    width: 100%;
+    justify-content:flex-start;
+    align-items:center;
+    margin-left:250px;
+}
+.button a{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(209, 145, 25);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align:center;
+    background:#fff;
+    border: 1px solid #ffffff;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+}
+.button a:hover{
+    color: black;
+}
+.menu{
+    width: 100%;
+    min-height: 100vh;
+   background-image: url("img/pngtree-coffee-drink-hot-drink-coffee-beans-smoke-image_2178058.jpg");
+   background-size: cover;
+   background-position: center;
+   padding: 0 10px 30px 10px;
+}
+.title{
+    
+    color: #f6f5f4;
+    font-size: larger;
+    margin-left: 700px;
+    box-align: center;
+    padding: 30px 0;
+
+}
+.category{
+   margin-bottom: 40px;
+}
+.category h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #f9c16e;
+}
+.category ul{
+    list style:none;
+}
+.category ul li{
+    background: #ada29537;
+    margin: 10px 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category ul li :hover{
+    color: #a05d15;
+}
+.name{
+    font-weight: bold;
+    color: #f6d3a9e8;
+    font-size: 25px;
+}
+
+.desc{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #f6f2bf;
+}
+.gallery {
+    color:#fff;
+    width: 100%;
+    min-height: 100vh;
+   background-size: cover;
+   background-position: center; 
+}
+
+.gallery .container {
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.gallery-grid :hover{
+    color: #f6f2bf;
+}
+
+.gallery-item {
+    background: #e2cfb974;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.footer{
+    width: 100%;
+    position:relative;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/coffee.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.head{
+    width: 85%;
+    margin: auto;
+    align-items:flex-start;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    flex-basis:20% ;
+    padding: 10px; 
+}
+.card h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    color: #f9c16e;
+    position: relative;
+    font-size: 20px;
+    border-bottom: 2px solid #fff;
+    padding: 5px;
+}
+.card h3 p{
+    font-size: 50px;
+    text-decoration: none;
+}
+.card h3 p i a{
+    font-size: 20px;
+}
+.text{
+    width: fit-content;
+    font-size: 20px;
+    margin: 15px 0;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+}
+.card p{
+    list-style: none;
+    margin-bottom: 18px;
+}
+.card p i{
+    font-size: 20px;
+    padding-right: 5px;
+}
+card p a{
+    text-decoration: none;
+    color: #f6f2bf;
+    font-size: 50px;
+} 
+.form{
+    padding-bottom: 5px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 4px 0;
+}
+.form input{
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    width: 80%;
+    font-size: 18px;
+    border-bottom: 1px solid #fff;
+    padding: 0px;
+    margin: 10px;
+}
+.form i{
+    font-size: 20px;
+    margin-left: 5px;
+    float:left;
+    padding: 12px;
+}
+.form button{
+    border: 1px solid #fff;
+    font-size: 20px;
+    width: 130px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background: none;
+    outline: none;
+    color: #f9c16e;
+    cursor: auto;
+   
+}
+.form:hover{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
